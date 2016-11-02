@@ -1,0 +1,103 @@
+body {
+    background-color: maroon;
+	font-family: Cochin;
+	margin: 0;
+}
+
+header {
+    background-color: black;
+    color: red;
+	margin: 0;
+}
+
+header img {
+	display: block;
+	margin: 0 auto;
+	padding-top: 10px;
+	width: 200px;
+}
+
+header ul {
+	display: block;
+    list-style-type: none;
+	margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+	width: 50%;
+	min-width: 607px;
+	
+}
+
+header ul li {
+    display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px
+}
+
+header ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+}
+
+header ul li a:hover {
+    background-color: gray;
+}
+
+header h1 {
+	padding-top: 10px;
+	margin-top: 0;
+	font-size: 50px;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Trattatello;
+}
+
+main {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+	margin: 0;
+	width: 100%;
+	padding: 0;
+}
+
+footer > div {
+    background-color: black;
+}
+
+.bordure_feuille_couleur, .bordure_feuille_couleur_inverse, .bordure_feuille_noir, .bordure_feuille_noir_inverse {
+	width: 100%;
+	display: block;
+	height: 87px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.bordure_feuille_couleur {
+	background-image: url("img/bordure/bordure_feuille_couleur.png");
+}
+.bordure_feuille_couleur_inverse {
+	background-image: url("img/bordure/bordure_feuille_couleur_inverse.png");
+}
+.bordure_feuille_noir {
+	background-image: url("img/bordure/bordure_feuille_noir.png");
+}
+.bordure_feuille_noir_inverse {
+	background-image: url("img/bordure/bordure_feuille_noir_inverse.png");
+}
+
+a.selectionne {
+    background-color: #700;
+}
