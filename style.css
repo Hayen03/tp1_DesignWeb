@@ -23,15 +23,13 @@ header ul {
 	margin: 0 auto;
     padding: 0;
     overflow: hidden;
-	width: 50%;
-	min-width: 607px;
+	width: 552px;
 	
 }
 
 header ul li {
     display: inline-block;
-	margin-left: 10px;
-	margin-right: 10px
+	margin: 0 5px;
 }
 
 header ul li a {
@@ -39,6 +37,7 @@ header ul li a {
     color: white;
     text-align: center;
     text-decoration: none;
+	margin: 0;
     padding: 20px;
 }
 
@@ -49,7 +48,6 @@ header ul li a:hover {
 header h1 {
 	padding-top: 10px;
 	margin-top: 0;
-	font-size: 50px;
 	margin-bottom: 0;
 	text-align: center;
 }
@@ -62,10 +60,11 @@ main {
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
+	font-size: 17px;
 }
 
 footer {
-    position: fixed;
+    /*position: fixed;*/
     bottom: 0;
     left: 0;
 	margin: 0;
@@ -100,4 +99,79 @@ footer > div {
 
 a.selectionne {
     background-color: #700;
+}
+
+main img {
+	float: right;
+}
+
+.histoire {
+    width: 90%;
+	padding: 30px 30px 10px 30px;
+    background-image: url("img/old-sheet-of-paper-1427188.png");
+	background-repeat: no-repeat;
+	background-clip: border-box;
+	background-size: cover;
+	margin: 10px auto;
+	font-family: Luminari;
+}
+.histoire img {
+	margin: 10px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #311;
+	padding: 2px;
+}
+
+blockquote {
+	font-size: 20px;
+	font-weight: bold; 
+}
+
+hr.citrouille {
+	width: 400px;
+	height: 50px;
+	margin: 20px auto;
+	border: 0px;
+	background-image: url("img/separation_citrouille.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+ul.horizontal {
+    display: block;
+    list-style-type: none;
+	margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+	width: 90%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.standard_size {
+	display: block;
+	max-height: 250px;
+	width: auto;
+}
+
+.cadre_feuille {
+	border-style: solid;
+    border-width: 40px 41px 46px 37px;;
+    -moz-border-image: url(img/cadre_feuille.png) 41 38 44 35 round;
+    -webkit-border-image: url(img/cadre_feuille.png) 41 38 44 35 round;
+    -o-border-image: url(img/cadre_feuille.png) 41 38 44 35 round;
+    border-image: url(img/cadre_feuille.png) 41 38 44 35 fill round
+}
+
+.cadre {
+    border: 10px ridge;
+    border-color: #663500;
+}
+
+h1 {
+    font-size: 70px;
 }
