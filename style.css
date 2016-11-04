@@ -185,3 +185,63 @@ h1 {
 h2 {
     font-size: 30px;
 }
+
+.coupee {
+    width:300px;
+    border: 5px solid black;
+    padding: 3px;
+}
+
+.puree{
+    height:150px;
+    margin-right: 50px;
+    float:left;
+    margin-right: 50px;
+    border: 3px solid black;
+}
+
+.ricardo {
+    display:block;
+    margin:0 auto;
+    width:70%;
+}
+
+.imgricardo {
+    height:125px;
+    border: 5px solid black;
+    padding: 3px;
+    float:none;
+}
+
+#recettes a:link {
+    color:black;
+}
+#recettes a:hover {
+    background-color:white;
+    color: black;
+}
+ #recettes a:visited {
+     font-style:italic;
+     color:black;
+ }
+
+#auteurs {
+    margin-bottom:150px;
+}
+ 
+ .pelle{
+     width:50px;
+ }
+ 
+ #imgbotanique1 {
+    max-width:400px;
+    float:right;
+    border: 5px solid black;
+    padding:3px;
+}
+
+#culture {
+    margin-bottom:150px;
+    max-width:550px;
+}
+ 
